@@ -1,20 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'poppins'; 
+    font-family:'poppins';
+    margin-bottom: 0px;
+}
+
+body{
+    background-color: #F2E8C6;
+}
+ 
+.html{
+    margin-bottom: 0px;
 }
  
 @font-face{
     font-family: poppins;
     src: url(Poppins/Poppins-Regular.ttf);
 }
- body{
-    background-color: #F2E8C6;
- }
+ 
 .icon{
-    width: 70px;
+    width: 90px;
     background: linear-gradient(180deg, #a30000 0%, #450000 100%);
-    padding: 25px;
+    padding: 23px;
     border-radius: 30px;
     margin: 53px;
     text-align: center;
@@ -41,9 +48,13 @@
  
 .da a{
     text-decoration: none;
-    color: #F2E8C6;
+    color: #ebebeb;
     margin-bottom: 40px;
     text-align: center;
+}
+ 
+.da a:hover{
+    font-weight: bold;
 }
  
 .da a img{
@@ -65,7 +76,6 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
     align-items: center;
     justify-content: end;
-    background-color: #DAD4B5;
 }
  
 .search p{
@@ -111,7 +121,7 @@
     display: flex;
     width: 1150px;
     height: 300px;
-    background-color: #982a1ccc;
+    background-color: #80000081;
     margin-left: -1150px;
     margin-top: 150px;
     border-radius: 30px;
@@ -140,20 +150,17 @@
 .cxp{
     display: flex;
     flex-direction: column;
-    color: #F2E8C6;
+    color: white;
 }
  
 .i0{
-    margin-left: 300px;
-    margin-top: 20px;
-
+    margin-left: 250px;
 }
  
 .fi{
     display: flex;
     margin-left: -1150px;
     margin-top: 500px;
-    color: #800000;
  
 }
  
@@ -169,7 +176,6 @@
     width: 800px;
     margin-top: 550px;
     margin-left: -95px;
-    color: #800000;
 }
  
 .cximg div{
@@ -181,13 +187,15 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #80000081;
+    color: white;
    
 }
  
 .cximg div:hover{
     border: 4px solid #800000;
     margin: -4px;
+    background-color: #72000089;
 }
  
 .p0{
@@ -214,7 +222,7 @@
  
 .p4{
     font-size: 17px;
-    color:rgba(82, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
     margin-top: 2px;
 }
  
@@ -223,7 +231,7 @@
     flex-direction: row;
     margin-top: 830px;
     margin-left: -800px;
-    color: #800000;
+    margin-bottom: -150px;
 }
  
 .ect, .sa{
@@ -241,19 +249,130 @@
  
 .ecb{
     display: flex;
-    margin-top: 900px;
+    margin-top: 880px;
     margin-left: -800px;
     flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    height: 180px;
 }
  
-.bl1{
-    background-color: #1b6579;
+.bl1, .bl2{
+    width: 383px;
+    height: 175px;
+    border-radius: 25px;
+    background-color: #80000081;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
+    padding-left: 5px;
 }
  
-.bl2{
- 
+.bl1:hover,.bl2:hover{
+    border: 4px solid #800000;;
+    margin: -4px;
+    background-color: #72000089;
 }
  
 .ecb img{
     width: 120px;
 }
+ 
+.v{
+    position: relative;
+    border: 3px solid #800000;
+    border-radius: 140px;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+    width: 120px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    top: 40px;
+}
+ 
+.bl1 img, .bl2 img{
+    position: relative;
+    left: 150px;
+    top: -120px;
+    margin-left: 90px;
+}
+ 
+.b1p, .b2p{
+    position: relative;
+    bottom: -10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+ 
+.iml{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    top: 500px;
+    left: 40px;
+ 
+}
+ 
+.imlp{
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+    font-weight: bold;
+}
+ 
+.iml div img{
+    height: 90px;
+    border: 4px solid #800000;
+    margin: 5px;
+    margin-top: 35px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px 0px;
+}
+ 
+.dn{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    height: 300px;
+    justify-content: space-between;
+}
+ 
+.dn p{
+    margin-right: 20px;
+}
+ 
+.dntx{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    padding: 30px;
+    top: -225px;
+    background-color: #80000081;
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px 0px;
+}
+ 
+.n1{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+ 
+.n2{
+    font-size: 19px;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+ 
+.dntx div{
+    margin-bottom: 19px;
+}
+ 
